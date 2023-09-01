@@ -20,12 +20,65 @@ body {
 
 /* Header */
 header {
+    padding: 0 1rem;
+    position: fixed;
     font-family: 'Quicksand', sans-serif;
+    z-index: 99;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
-nav img {
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+    font-weight: bold;
+    color: white;
+}
+
+#menu a {
+    margin-bottom: 1em;
+    background-color: rgb(37, 37, 255);
+    border: 1px solid white;
+    margin-bottom: 2px;
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#logo {
+    background-color: white;
     width: 300px;
     height: 110px;
+}
+
+#menu .active {
+    background-color: #fff;
+    border: 1px solid black;
+    color: black;
+}
+
+#menu li a {
+    padding: 0;
+}
+
+nav a:hover {
+    background-color: lightgray;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
 }
 
 /* Main */
