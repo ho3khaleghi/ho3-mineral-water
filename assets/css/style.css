@@ -20,8 +20,12 @@ body {
 
 /* Header */
 header {
-    background-color: navy;
-    color: white;
+    
+}
+
+div img {
+    width: 300px;
+    height: 110px;
 }
 
 /* Main */
