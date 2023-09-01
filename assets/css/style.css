@@ -42,7 +42,7 @@ header a {
     color: white;
 }
 
-#menu a {
+nav a {
     margin-bottom: 1em;
     background-color: rgb(37, 37, 255);
     border: 1px solid white;
@@ -62,7 +62,7 @@ header a {
     height: 110px;
 }
 
-#menu .active {
+nav .active {
     background-color: #fff;
     border: 1px solid black;
     color: black;
@@ -72,7 +72,7 @@ header a {
     padding: 0;
 }
 
-nav a:hover {
+#menu a:hover {
     background-color: lightgray;
 }
 
