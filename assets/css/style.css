@@ -152,6 +152,11 @@ nav .nav-list {
     position: relative;
 }
 
+.logo-container img {
+    height: 200px;
+    width: 170px;
+}
+
 /* Main */
 main {
     background-color: white;
