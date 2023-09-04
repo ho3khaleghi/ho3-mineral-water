@@ -148,6 +148,10 @@ nav .nav-list {
     cursor: pointer;
 }
 
+.navbar span {
+    position: relative;
+}
+
 /* Main */
 main {
     background-color: white;
