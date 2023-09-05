@@ -10,9 +10,9 @@
 
 /* General styles */
 body {
-    /* min-height: 100vh; */
-    /* display: flex; */
-    /* flex-direction: column; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Roboto', sans-serif;
@@ -123,24 +123,35 @@ nav .nav-list {
 
 /* Rewriting the Header */
 .navbar {
-    background-color: #0076e4b1;
+    background-color: #4EA0EC;
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    box-shadow: 0 2px 2px #0e109e;
+    display: none;
 }
 
 .menu {
     list-style-type: none;
-    padding: 20px 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    /* padding-top: 10px; */
+    position: absolute;
+    /* margin-top: 156px; */
+    background-color: #4EA0EC;
+    box-shadow: 0 2px 2px #0e109e;
 }
 
 .menu .list-menu {
-    display: inline-block;
+    display: block;
+    padding: 10px;
+    border-top: 1px solid white;
 }
 
 .navbar .nav-list {
-    color: white;
+    color: rgb(27, 27, 158);
     text-decoration: none;
 }
 
@@ -155,19 +166,50 @@ nav .nav-list {
 .logo-container img {
     height: 85px;
     width: 130px;
+    padding: 10px;
 }
+
+.logo-container {
+    background-color: #4EA0EC;
+    box-shadow: 0 2px 2px #0e109e;
+}
+
+.toggle-icon {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    display: none;
+}
+
+.label-toggle-icon {
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 38px;
+    /* bottom: 15px; */
+}
+
+/* Navbar display to list */
+.navbar {
+    flex-direction: column;
+}
+
+.toggle-icon:checked~nav {
+    display: block;
+}
+
 
 /* Main */
 main {
     background-color: white;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 103px;
+    /* margin-top: 103px; */
 }
 
 /* Footer */
 footer {
-    background-color: #0076e4b1;
+    background-color: #4EA0EC;
     color: white;
 }
 
@@ -184,6 +226,8 @@ footer {
     padding: 5%;
     color: white;
 }
+
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -207,6 +251,40 @@ footer {
     .nav-toggle-label {
         display: none;
     } */
+
+    /* New Header design */
+    .navbar {
+        display: block;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .menu .list-menu{
+        border: none;
+        font-weight: bold;
+        font-variant: small-caps;
+        letter-spacing: 3px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border: 1px groove rgb(27, 27, 158);
+        border-radius: 5px;
+        margin-bottom: 5px;
+        background: linear-gradient(0.25turn,
+            #234cff,
+            #d8d8d8,
+            #6b6b6b);
+    }
+
+    .label-toggle-icon {
+        display: none;
+    }
+
+    .logo-container {
+        /* border-bottom: 1px solid rgb(27, 27, 158); */
+    }
 
     /* Main content */
     main {
