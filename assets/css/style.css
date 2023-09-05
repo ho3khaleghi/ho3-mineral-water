@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -123,13 +123,17 @@ nav .nav-list {
 
 /* Rewriting the Header */
 .navbar {
-    background-color: #4EA0EC;
+    /* background-color: #022656; */
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
     box-shadow: 0 2px 2px #0e109e;
     display: none;
+}
+
+.hamburger {
+    color: white;
 }
 
 .menu {
@@ -153,6 +157,10 @@ nav .nav-list {
 .navbar .nav-list {
     color: rgb(27, 27, 158);
     text-decoration: none;
+    font-family: 'Shadows Into Light';
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 3px;
 }
 
 .navbar a:hover {
@@ -170,7 +178,7 @@ nav .nav-list {
 }
 
 .logo-container {
-    background-color: #4EA0EC;
+    background-color: #022656;
     box-shadow: 0 2px 2px #0e109e;
 }
 
@@ -187,6 +195,10 @@ nav .nav-list {
     right: 30px;
     top: 38px;
     /* bottom: 15px; */
+}
+
+.active {
+    background-color: #15FFFE;
 }
 
 /* Navbar display to list */
@@ -209,7 +221,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: #4EA0EC;
+    background-color: #022656;
     color: white;
 }
 
