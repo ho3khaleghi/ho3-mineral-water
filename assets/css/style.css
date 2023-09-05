@@ -122,13 +122,18 @@ nav .nav-list {
 } */
 
 /* Rewriting the Header */
+
+header {
+    box-shadow: 0 2px 2px #022656;
+}
+
 .navbar {
     /* background-color: #022656; */
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 0 2px 2px #0e109e;
+    /* box-shadow: 0 2px 2px #0e109e; */
     display: none;
 }
 
@@ -145,7 +150,7 @@ nav .nav-list {
     position: absolute;
     /* margin-top: 156px; */
     background-color: #4EA0EC;
-    box-shadow: 0 2px 2px #0e109e;
+    box-shadow: 0 2px 2px #022656;
 }
 
 .menu .list-menu {
@@ -179,7 +184,7 @@ nav .nav-list {
 
 .logo-container {
     background-color: #022656;
-    box-shadow: 0 2px 2px #0e109e;
+    box-shadow: 0 2px 2px #022656;
 }
 
 .toggle-icon {
@@ -266,6 +271,10 @@ footer {
 
     /* New Header design */
 
+    header {
+        box-shadow: none
+    }
+
     .logo-container {
         position: absolute;
         width: 15%;
@@ -294,9 +303,10 @@ footer {
         padding-left: 40px;
         padding-right: 40px;
         border: 1px groove rgb(27, 27, 158);
-        border-radius: 5px;
-        margin-bottom: 5px;
-        background-color: #15FFFE;
+        border-radius: 9px;
+        margin-bottom: 27px;
+        margin-top: 27px;
+        background-color: #022656;
         align-content: center;
         align-items: center;
     }
@@ -313,10 +323,15 @@ footer {
         font-family: 'Roboto';
         align-items: center;
         align-content: center;
+        color: #FFFFFF;
     }
 
     /* Main content */
     main {
         margin-top: 99px;
+    }
+
+    .active {
+        background-color: #35B2DE;
     }
 }
