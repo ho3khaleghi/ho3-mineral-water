@@ -265,17 +265,36 @@ h1 {
 .text-container {
     background-color: rgb(211, 211, 211);
     background: linear-gradient(45deg, #aeaeae, transparent);
+    display: flex;
+    flex-direction: column;
+}
+
+.alp-image {
+    width: 100%;
+    height: 400px;
+    margin-top: 15px;
+    padding: 20px;
 }
 
 p {
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 50px;
+    padding: 0 35px 20px 35px;
+    text-align: center;
+}
+
+.subscript {
+    font-size: small;
 }
 
 hr {
-    margin: 10px 100px 0 100px;
+    margin: 10px 30px 0 30px;
+    border-width: 1px;
+    border-style: solid;
 }
+
+.description {
+    /* display: flex; */
+}
+
 
 /* Footer */
 footer {
