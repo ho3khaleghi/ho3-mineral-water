@@ -229,8 +229,6 @@ main {
     height: 200px;
     width: 100%;
     background: url('../images/pngkey.com-ocean-water-png-9920712.png') no-repeat center/cover;
-    /* opacity: 0.7; */
-    /* margin-top: 20px; */
 }
 
 /* Hero section of Products page*/
@@ -238,18 +236,14 @@ main {
     height: 200px;
     width: 100%;
     background: url('../images/products-hero.png') no-repeat center/cover;
-    /* opacity: 0.7; */
-    /* margin-top: 20px; */
 }
 
-/* Hero section of Products page*/
+/* Hero section of Contact page*/
 #hero-image-contact {
     height: 200px;
     width: 100%;
     background: url('../images/pngegg\ \(2\).png') no-repeat center/cover;
     transform: rotate(180deg);
-    /* opacity: 0.7; */
-    /* margin-top: 20px; */
 }
 
 .hero-container {
@@ -387,31 +381,8 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    /* Header */
-    /* nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-    }
-
-    header {
-        align-items: initial;
-    }
-
-    #menu {
-        position: relative;
-        top: 15px;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    } */
-
-    /* New Header design */
-
-    header {}
-
+    
+    /* Header design */
     .logo-container {
         position: absolute;
         width: 15%;
@@ -441,11 +412,7 @@ footer {
         letter-spacing: 3px;
         padding-left: 40px;
         padding-right: 40px;
-        /* border: 1px groove rgb(27, 27, 158); */
-        /* border-radius: 9px; */
-        /* margin-bottom: 27px; */
         margin-top: 49px;
-        /* background: linear-gradient(#022656, #787878); */
         align-content: center;
         align-items: center;
     }
@@ -456,10 +423,6 @@ footer {
 
     .label-toggle-icon {
         display: none;
-    }
-
-    .logo-container {
-        /* border-bottom: 1px solid rgb(27, 27, 158); */
     }
 
     .navbar .nav-list {
@@ -474,5 +437,9 @@ footer {
         margin-top: 98px;
     }
 
+    /* Hero image */
+    #hero-image-products {
+        height: 225px;
+    }
 
 }
