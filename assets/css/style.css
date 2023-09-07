@@ -256,6 +256,10 @@ main {
     font-size: 40px;
 }
 
+.top-icon {
+    color: #0000008f;
+}
+
 /* Text after the hero image */
 
 section {
@@ -448,7 +452,7 @@ footer {
 
     /* Main content */
     main {
-        margin-top: 99px;
+        margin-top: 98px;
     }
 
 
