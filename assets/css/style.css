@@ -357,6 +357,50 @@ p {
     padding: 20px;
 }
 
+/* Products HTML */
+.products-image-container {
+    display: flex;
+    justify-content: center;
+    flex-basis: 2;
+}
+
+.products-plastic-bottles-image {
+    position: relative;
+    margin: 10px;
+    height: 200px;
+    max-width: 90%;
+    /* align-self: center; */
+}
+
+.products-glass-image {
+    position: relative;
+    margin: 10px;
+    height: 200px;
+    max-width: 90%;
+}
+
+
+/* Quality steps section */
+.quality-steps {
+    display: flex;
+}
+
+.quality-steps-image {
+    position: relative;
+    margin: 10px;
+    height: 200px;
+    max-width: 90%;
+    align-self: center;
+}
+
+.products-glass-image {
+    position: relative;
+    margin: 10px;
+    height: 200px;
+    max-width: 90%;
+    align-self: center;
+}
+
 /* Footer */
 footer {
     background: linear-gradient(#787878, #022656);
@@ -381,7 +425,7 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    
+
     /* Header design */
     .logo-container {
         position: absolute;
