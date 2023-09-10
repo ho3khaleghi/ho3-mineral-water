@@ -320,7 +320,11 @@ hr {
 
 p {
     padding: 0 35px 20px 35px;
-    text-align: center;
+    /* text-align: center; */
+}
+
+h4 {
+    padding: 10px 30px;
 }
 
 /* Profit water section */
@@ -361,13 +365,14 @@ p {
 .products-image-container {
     display: flex;
     justify-content: center;
-    flex-basis: 2;
+    flex-wrap: wrap;
 }
 
 .products-plastic-bottles-image {
     position: relative;
     margin: 10px;
     height: 200px;
+    max-height: 275px;
     max-width: 90%;
     /* align-self: center; */
 }
@@ -376,7 +381,9 @@ p {
     position: relative;
     margin: 10px;
     height: 200px;
+    max-height: 275px;
     max-width: 90%;
+    /* object-fit: contain; */
 }
 
 
@@ -393,12 +400,22 @@ p {
     align-self: center;
 }
 
-.products-glass-image {
-    position: relative;
-    margin: 10px;
-    height: 200px;
-    max-width: 90%;
+/* Table products page */
+table {
+    border-collapse: collapse;
+    width: 80%;
     align-self: center;
+    margin: 20px 0;
+}
+
+td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background-color: #cecece;
 }
 
 /* Footer */
@@ -486,4 +503,71 @@ footer {
         height: 225px;
     }
 
+    /* Products page */
+    .quality-steps-image {
+        height: 375px;
+    }
+
+    .products-image-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0 25px;
+    }
+
+    .products-plastic-bottles-image {
+        height: 325px;
+        width: 40%;
+        order: 1;
+        max-height: 325px;
+        object-fit: contain;
+    }
+
+
+    .products-glass-image {
+        height: 325px;
+        width: 40%;
+        order: 2;
+        max-height: 325px;
+        object-fit: contain;
+    }
+
+    .products-description {
+        order: 3;
+        width: 65%;
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+/* Media query: laptop and desktop (992px and up) */
+@media screen and (min-width: 992px) {
+
+    p {
+        width: 85%;
+        align-self: center;
+    }
+
+    h4 {
+        margin-left: 100px;
+    }
+
+    footer {
+        margin-top: 30px;
+    }
+
+    /* Products page */
+    .products-plastic-bottles-image {
+        width: 30%;
+    }
+
+    .products-glass-image {
+        width: 30%;
+        order: 4;
+    }
+
+    .products-description {
+        width: 35%;
+    }
 }
