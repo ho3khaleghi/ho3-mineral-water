@@ -480,6 +480,17 @@ label {
     max-width: 160px;
 }
 
+/* Contact section */
+.contact-section {
+    background-color: #fff;
+}
+
+h2 {
+    color: #2143ff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
 /* Footer */
 footer {
     background: linear-gradient(#787878, #022656);
@@ -631,5 +642,22 @@ footer {
 
     .products-description {
         width: 35%;
+    }
+
+    /* Contact Page */
+    .section-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-section {
+        width: 40%;
+        margin: 50px 0;
+        padding: 20px;
+        box-shadow: 1px 1px 20px 1px #0000005c;
+    }
+
+    .form-section {
+        width: 40%;
     }
 }
