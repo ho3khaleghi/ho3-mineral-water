@@ -26,12 +26,10 @@ header {
 }
 
 .navbar {
-    /* background-color: #022656; */
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* box-shadow: 0 2px 2px #0e109e; */
     display: none;
 }
 
@@ -44,9 +42,7 @@ header {
     display: block;
     width: 100%;
     text-align: center;
-    /* padding-top: 10px; */
     position: absolute;
-    /* margin-top: 156px; */
     background-color: #4EA0EC;
     z-index: 99;
 }
@@ -96,7 +92,6 @@ header {
     position: absolute;
     right: 30px;
     top: 38px;
-    /* bottom: 15px; */
 }
 
 .active {
@@ -161,7 +156,6 @@ main {
 .go-top-button {
     text-decoration: none;
     color: white;
-    /* font-weight: larger; */
     font-size: 40px;
 }
 
@@ -196,7 +190,7 @@ h3 {
 }
 
 hr {
-    margin: 10px 30px 10px 30px;
+    margin: 30px;
     border-width: 1px;
     border-style: solid;
 }
@@ -217,7 +211,6 @@ hr {
 
 p {
     padding: 0 35px 20px 35px;
-    /* text-align: center; */
 }
 
 h4 {
@@ -271,7 +264,6 @@ h4 {
     height: 200px;
     max-height: 275px;
     max-width: 90%;
-    /* align-self: center; */
 }
 
 .products-glass-image {
@@ -280,7 +272,6 @@ h4 {
     height: 200px;
     max-height: 275px;
     max-width: 90%;
-    /* object-fit: contain; */
 }
 
 
@@ -423,7 +414,6 @@ footer {
         width: 15%;
         height: 98px;
         background: linear-gradient(#022656, #787878);
-        box-shadow: #78787800;
     }
 
     .navbar {
