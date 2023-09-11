@@ -19,109 +19,6 @@ body {
 }
 
 /* Header */
-/* header {
-    padding: 0 1rem;
-    position: fixed;
-    font-family: 'Quicksand', sans-serif;
-    z-index: 99;
-    background-color: white;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-}
-
-header a {
-    text-decoration: none;
-    color: inherit;
-}
-
-
-#logo {
-    background-color: white;
-    width: 250px;
-    height: 95px;
-}
-
-/* Navbar styles with dropdown toggle */
-/* nav {
-    position: absolute;
-    background-color: #ffffff;
-    width: 100%;
-    left: 0;
-    padding: 0 6rem;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
-    top: 100%;
-    border-top: 3px solid black;
-} */
-
-/* #menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    list-style-type: none;
-    color: white;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: column;
-}
-
-nav a {
-    background-color: #5068A9;
-    border-top: 1px solid #ffffff;
-    color: #ffffff;
-    height: 30px;
-    width: 150px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-nav .active {
-    background-color: #ffffff;
-    color: #5068A9;
-}
-
-nav .nav-list {
-    display: flex;
-    flex-direction: row;
-    left: 30px;
-}
-
-#menu li a {
-    padding: 0;
-    left: -7px;
-    height: 10vh;
-}
-
-#menu li {
-    width: 100%;
-}
-
-#menu a:hover {
-    background-color: lightgray;
-} */
-
-/* Nav toggle */
-/* #nav-toggle:checked~nav {
-    display: inline;
-}
-
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
-    font-size: 2rem;
-    position: absolute;
-    right: 25px;
-    top: 25px;
-} */
-
-/* Rewriting the Header */
 
 header {
     box-shadow: 0 2px 2px #022656;
@@ -626,8 +523,8 @@ footer {
         margin-left: 100px;
     }
 
-    footer {
-        margin-top: 30px;
+    main {
+        padding-bottom: 30px;
     }
 
     /* Products page */
@@ -658,6 +555,21 @@ footer {
     }
 
     .form-section {
-        width: 40%;
+        width: 45%;
+    }
+
+    .message-form {
+        max-width: 100%;
+    }
+
+    label {
+        margin: 16px 0 6px 45px;
+    }
+}
+
+/* Media query: ultra wide screens (1440px and up) */
+@media screen and (min-width: 1440px) {
+    #hero-image-contact {
+        height: 350px;
     }
 }
