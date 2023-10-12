@@ -117,7 +117,7 @@ main {
 
 .landing-image-container {
     background: linear-gradient(#f9fbff, #0059ff);
-    height: 400px;
+    height: 260px;
     width: 100%;
     z-index: 99;
 }
@@ -146,7 +146,7 @@ main {
     width: 150px;
     z-index: 99;
     right: 10px;
-    bottom: 60px;
+    top: 380px;
 }
 
 /* Hero section of Home page*/
@@ -459,6 +459,7 @@ footer {
     .landing-image {
         right: 120px;
         height: 400px;
+        top: 275px;
     }
 
     .slogan {
@@ -571,7 +572,7 @@ footer {
     .landing-image {
         right: 200px;
         height: 500px;
-        bottom: 35px;
+        top: 200px;
     }
 
     .slogan {
@@ -701,7 +702,7 @@ footer {
     .landing-image {
         right: 350px;
         height: 500px;
-        bottom: -100px;
+        top: 350px;
     }
 
     .slogan {
