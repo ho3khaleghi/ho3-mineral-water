@@ -133,6 +133,7 @@ main {
     left: 10px;
     z-index: 100;
     opacity: 60%;
+    top: 280px;
 }
 
 .slogan-text {
