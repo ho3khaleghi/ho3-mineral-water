@@ -115,11 +115,45 @@ main {
     flex: 1 0 auto;
 }
 
+.landing-image-container {
+    background: linear-gradient(#f9fbff, #0059ff);
+    height: 400px;
+    width: 100%;
+    z-index: 99;
+}
+
+.slogan {
+    position: absolute;
+    background-color: #022656;
+    width: 200px;
+    height: 200px;
+    color: #ffffff;
+    font-size: 52px;
+    border-radius: 5px;
+    left: 10px;
+    z-index: 100;
+    opacity: 60%;
+}
+
+.slogan-text {
+    padding: 10px;
+}
+
+.landing-image {
+    position: absolute;
+    background: url(../images/landing-image-bottle.png) no-repeat center/cover;
+    height: 300px;
+    width: 150px;
+    z-index: 99;
+    right: 10px;
+    bottom: 60px;
+}
+
 /* Hero section of Home page*/
 #hero-image {
-    height: 200px;
+    height: 400px;
     width: 100%;
-    background: url('../images/home-hero-image.png') no-repeat center/cover;
+    background: url('../images/pngwing.com.png') no-repeat center/cover;
     transform: rotate(180deg);
 }
 
@@ -152,6 +186,7 @@ main {
     background-color: rgb(50 50 50 / 52%);
     padding: 10px 20px;
     border-radius: 30%;
+    z-index: 101;
 }
 
 .go-top-button {
@@ -421,6 +456,19 @@ footer {
 @media screen and (min-width: 768px) {
 
     /* Header design */
+    .landing-image {
+        right: 120px;
+        height: 400px;
+    }
+
+    .slogan {
+        left: 80px;
+        bottom: 150px;
+        width: 300px;
+        height: 300px;
+        font-size: 72px;
+    }
+
     .logo-container {
         position: absolute;
         width: 15%;
@@ -519,6 +567,24 @@ footer {
 
 /* Media query: laptop and desktop (992px and up) */
 @media screen and (min-width: 992px) {
+
+    .landing-image {
+        right: 200px;
+        height: 500px;
+        bottom: 35px;
+    }
+
+    .slogan {
+        left: 80px;
+        bottom: 100px;
+        width: 300px;
+        height: 300px;
+        font-size: 72px;
+    }
+
+    .slogan-text {
+        box-shadow: none;
+    }
 
     p {
         width: 85%;
@@ -630,12 +696,29 @@ footer {
 
 /* Media query: ultra wide screens (1440px and up) */
 @media screen and (min-width: 1440px) {
+
+    /* Landing image */
+    .landing-image {
+        right: 350px;
+        height: 500px;
+        bottom: -100px;
+    }
+
+    .slogan {
+        left: 240px;
+        bottom: -13px;
+        width: 300px;
+        height: 300px;
+        font-size: 72px;
+        box-shadow: 0px 0px 25px 10px white;
+    }
+
     #hero-image-contact {
         height: 350px;
     }
 
     #hero-image {
-        height: 350px;
+        height: 615px;
     }
 
     #hero-image-products {
