@@ -264,7 +264,6 @@ h4 {
 
 .drinking-woman {
     height: 330px;
-    max-width: 425px;
     margin-top: 15px;
     padding: 20px;
 }
@@ -276,14 +275,12 @@ h4 {
 
 .plastic-bottle {
     height: 450px;
-    max-width: 375px;
     margin-top: 15px;
     padding: 20px;
 }
 
 .glass-bottle {
     height: 280px;
-    max-width: 425px;
     margin-top: 15px;
     padding: 20px;
 }
@@ -299,16 +296,12 @@ h4 {
     position: relative;
     margin: 10px;
     height: 200px;
-    max-height: 275px;
-    max-width: 90%;
 }
 
 .products-glass-image {
     position: relative;
     margin: 10px;
     height: 200px;
-    max-height: 275px;
-    max-width: 90%;
 }
 
 
@@ -320,7 +313,6 @@ h4 {
 .quality-steps-image {
     position: relative;
     margin: 10px;
-    height: 200px;
     max-width: 90%;
     align-self: center;
 }
@@ -526,9 +518,6 @@ footer {
     }
 
     /* Products page */
-    .quality-steps-image {
-        height: 375px;
-    }
 
     .products-image-container {
         display: flex;
@@ -539,7 +528,6 @@ footer {
 
     .products-plastic-bottles-image {
         height: 325px;
-        width: 40%;
         order: 1;
         max-height: 325px;
         object-fit: contain;
@@ -548,7 +536,6 @@ footer {
 
     .products-glass-image {
         height: 325px;
-        width: 40%;
         order: 2;
         max-height: 325px;
         object-fit: contain;
@@ -605,11 +592,6 @@ footer {
         margin: 0 45px 20px 45px;
     }
 
-    .alp-image,
-    .drinking-woman {
-        width: 40%;
-    }
-
     .description-p {
         width: 55%;
     }
@@ -629,7 +611,6 @@ footer {
     }
 
     .plastic-bottle {
-        width: 25%;
         height: 350px;
         margin-top: 70px;
     }
@@ -639,12 +620,9 @@ footer {
     }
 
     /* Products page */
-    .products-plastic-bottles-image {
-        width: 30%;
-    }
+
 
     .products-glass-image {
-        width: 30%;
         order: 4;
     }
 
