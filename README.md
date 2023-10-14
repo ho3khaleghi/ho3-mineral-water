@@ -21,6 +21,12 @@ In the contact us page there several ways of contacting us and sending us a mess
 
 ![Nav Bar](https://github.com/ho3khaleghi/ho3-mineral-water/blob/main/assets/screenshots/header-section.png)
 
+- __Landing image__
+
+  - The landing includes the slogan of the company and a bottle of the product with nice splash water.
+
+![Landing Image](https://github.com/ho3khaleghi/ho3-mineral-water/blob/main/assets/screenshots/landing-image.png)
+
 - __The Home page details__
 
   - There is a photo of alps in Austria and will let you know about the location and some details about there.
