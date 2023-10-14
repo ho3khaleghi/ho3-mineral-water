@@ -527,16 +527,12 @@ footer {
     .products-plastic-bottles-image {
         height: 325px;
         order: 1;
-        max-height: 325px;
-        object-fit: contain;
     }
 
 
     .products-glass-image {
         height: 325px;
         order: 2;
-        max-height: 325px;
-        object-fit: contain;
     }
 
     .products-description {
