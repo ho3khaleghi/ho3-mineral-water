@@ -67,8 +67,8 @@ In the contact us page there several ways of contacting us and sending us a mess
 ### Validator Testing
 
 -HTML
-    -No errors were returned when passing through the official (<https://validator.w3.org/nu/?doc=https%3A%2F%2Fho3khaleghi.github.io%2Fho3-mineral-water%2F>)
+    -No errors were returned when passing through the official [W3C validator](<https://validator.w3.org/nu/?doc=https%3A%2F%2Fho3khaleghi.github.io%2Fho3-mineral-water%2F>)
 -CSS
-    -No errors were found when passing through the official (<>)
+    -No errors were found when passing through the official [(Jigsaw) validator](<https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fho3khaleghi.github.io%2Fho3-mineral-water%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en>)
 
 ### Unfixed bug
