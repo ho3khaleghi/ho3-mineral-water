@@ -2,7 +2,7 @@
 
 H&#8322;O Mineral Water is a website of a mineral water company to represent itself and trying to sell their products of get some sales branches to have the opportunity to have better place in the market because it is a new brand. The website will represent the quality of the products and also let the customer to know that they have different options to buy from this brand.
 
-![Responsice Mockup] (https://github.com/ho3khaleghi/ho3-mineral-water/blob/main/assets/screenshots/h2o_mockup.png)
+![Responsice Mockup](https://github.com/ho3khaleghi/ho3-mineral-water/blob/main/assets/screenshots/h2o_mockup.png)
 
 ## Features
 
