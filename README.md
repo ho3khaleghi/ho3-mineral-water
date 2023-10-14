@@ -18,8 +18,8 @@ In the contact us page there several ways of contacting us and sending us a mess
 
     -Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
     -This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
-    
-    ![Nav Bar](https://github.com/ho3khaleghi/ho3-mineral-water/blob/main/assets/screenshots/header-section.png)
+
+![Nav Bar](https://github.com/ho3khaleghi/ho3-mineral-water/blob/main/assets/screenshots/header-section.png)
 
 -__The Home page details__
 
@@ -35,7 +35,7 @@ In the contact us page there several ways of contacting us and sending us a mess
 
     -The footer is valuable to the user as it encourages them to keep connected via social media
 
-    ![Footer]
+![Footer]
 
 -__Products page details__
 
@@ -43,13 +43,13 @@ In the contact us page there several ways of contacting us and sending us a mess
 
     -You will know that we specialize in packaging 0.5-liter bottles and offer custom design and production options, with a minimum order quantity of one week's production.
 
-    ![Bottles]
+![Bottles]
 
     -There is a table and a photo for your information to know about the quality of the mineral water and the steps of qualitizing it.
 
-    ![Table]
+![Table]
 
-    ![Quality Steps]
+![Quality Steps]
 
 -__Contact Us page details__
 
@@ -57,7 +57,7 @@ In the contact us page there several ways of contacting us and sending us a mess
 
     -There is a form that gives you the opportunity to send us a message and even asks for purchase the big amount and have a branch in you area.
 
-    ![Contact Us]
+![Contact Us]
 
 ## Testing
 
