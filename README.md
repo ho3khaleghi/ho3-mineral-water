@@ -21,35 +21,33 @@ In the contact us page there several ways of contacting us and sending us a mess
 
 ![Nav Bar](https://github.com/ho3khaleghi/ho3-mineral-water/blob/main/assets/screenshots/header-section.png)
 
--__The Home page details__
+- __The Home page details__
 
-    -There is a photo of alps in Austria and will let you know about the location and some details about there.
+  - There is a photo of alps in Austria and will let you know about the location and some details about there.
+  - There is a section that let you know mineral water is a profitable choice for the human body, providing essential minerals, purity, and hydration for improved overall health.
+  - There is a secction to explain why you should try the products, we go to great lengths to ensure the highest quality of our bottled water, surpassing rigorous standards in microbiological, physical, chemical, and radiological aspects for a consistently crisp and safe drinking experience.
 
-    -There is a section that let you know mineral water is a profitable choice for the human body, providing essential minerals, purity, and hydration for improved overall health.
+- __The Footer__
 
-    -There is a secction to explain why you should try the products, we go to great lengths to ensure the highest quality of our bottled water, surpassing rigorous standards in microbiological, physical, chemical, and radiological aspects for a consistently crisp and safe drinking experience.
-
--__The Footer__
-
-    -The footer section includes links to the relevant social media sites for H2O Mineral Water. The links will open to a new tab to allow easy navigation for the user.
-
-    -The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the relevant social media sites for H2O Mineral Water. The links will open to a new tab to allow easy navigation for the user.
+  - The footer is valuable to the user as it encourages them to keep connected via social media
 
 ![Footer]
 
--__Products page details__
+- __Products page details__
 
-    -You can find images of the products which are in different models such as plastic bottles and glass bottles.
+  - You can find images of the products which are in different models such as plastic bottles and glass bottles.
+  - You will know that we specialize in packaging 0.5-liter bottles and offer custom design and production options, with a minimum order quantity of one week's production.
 
-    -You will know that we specialize in packaging 0.5-liter bottles and offer custom design and production options, with a minimum order quantity of one week's production.
+![Bottles](https://github.com/ho3khaleghi/ho3-mineral-water/blob/main/assets/screenshots/products.png)
 
-![Bottles]
+  - There is a table that gives you the information of the analysis of the product.
 
-    -There is a table and a photo for your information to know about the quality of the mineral water and the steps of qualitizing it.
+![Table](https://github.com/ho3khaleghi/ho3-mineral-water/blob/main/assets/screenshots/analysis-section.png)
 
-![Table]
+  - With a photo you can find out about how the product is qulitize.
 
-![Quality Steps]
+![Quality Steps](https://github.com/ho3khaleghi/ho3-mineral-water/blob/main/assets/screenshots/quality-steps.png)
 
 -__Contact Us page details__
 
@@ -57,7 +55,7 @@ In the contact us page there several ways of contacting us and sending us a mess
 
     -There is a form that gives you the opportunity to send us a message and even asks for purchase the big amount and have a branch in you area.
 
-![Contact Us]
+![Contact Us](https://github.com/ho3khaleghi/ho3-mineral-water/blob/main/assets/screenshots/contact-page.png)
 
 ## Testing
 
