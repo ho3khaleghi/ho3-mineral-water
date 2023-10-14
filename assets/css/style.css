@@ -153,7 +153,7 @@ main {
 #hero-image {
     height: 400px;
     width: 100%;
-    background: url('../images/home-hero.png') no-repeat center/cover;
+    background: url('../images/home-hero.webp') no-repeat center/cover;
     transform: rotate(180deg);
 }
 
@@ -161,14 +161,14 @@ main {
 #hero-image-products {
     height: 200px;
     width: 100%;
-    background: url('../images/products-hero.png') no-repeat center/cover;
+    background: url('../images/products-hero.webp') no-repeat center/cover;
 }
 
 /* Hero section of Contact page*/
 #hero-image-contact {
     height: 200px;
     width: 100%;
-    background: url('../images/contact-hero-image.png') no-repeat center/cover;
+    background: url('../images/contact-hero-image.webp') no-repeat center/cover;
     transform: rotate(180deg);
 }
 
