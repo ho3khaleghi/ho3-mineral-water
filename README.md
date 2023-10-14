@@ -2,7 +2,7 @@
 
 H&#8322;O Mineral Water is a website of a mineral water company to represent itself and trying to sell their products of get some sales branches to have the opportunity to have better place in the market because it is a new brand. The website will represent the quality of the products and also let the customer to know that they have different options to buy from this brand.
 
-![Responsice Mockup](https://github.com/ho3khaleghi/ho3-mineral-water/blob/main/assets/screenshots/h2o_mockup.png)
+![Responsice Mockup](https://github.com/ho3khaleghi/ho3-mineral-water/blob/main/assets/screenshots/h2o-responsive-mockup.png)
 
 ## Features
 
@@ -38,7 +38,7 @@ In the contact us page there several ways of contacting us and sending us a mess
   - The footer section includes links to the relevant social media sites for H2O Mineral Water. The links will open to a new tab to allow easy navigation for the user.
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer]
+![Footer](https://github.com/ho3khaleghi/ho3-mineral-water/blob/main/assets/screenshots/footer.png)
 
 - __Products page details__
 
@@ -55,11 +55,10 @@ In the contact us page there several ways of contacting us and sending us a mess
 
 ![Quality Steps](https://github.com/ho3khaleghi/ho3-mineral-water/blob/main/assets/screenshots/quality-steps.png)
 
--__Contact Us page details__
+- __Contact Us page details__
 
-    -You have access to the address, phone number, fax, and email of the company in this page.
-
-    -There is a form that gives you the opportunity to send us a message and even asks for purchase the big amount and have a branch in you area.
+  - You have access to the address, phone number, fax, and email of the company in this page.
+  - There is a form that gives you the opportunity to send us a message and even asks for purchase the big amount and have a branch in you area.
 
 ![Contact Us](https://github.com/ho3khaleghi/ho3-mineral-water/blob/main/assets/screenshots/contact-page.png)
 
